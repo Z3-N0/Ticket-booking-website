@@ -90,7 +90,7 @@ This project is a Train Ticket Booking System that allows users to register, log
 ### Environment Variables
 - Create a `.env` file in the root directory of the backend project.
 - Add the following environment variables:
-- Thje values given here are samples, you can change to any values of your preferance 
+- The values given here are samples, you can change to any values of your preferance 
 
 ```plaintext
 front end:
@@ -103,3 +103,36 @@ JWT_SECRET=8c1d30a69fa1e4f9c0a8b92c7a9ecbcf5f3c7e4e9c5d3e4e0d5d6a54c0e6f7b8
 ADMIN_API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkFkbWluIiwiImlhdCI6MTYxNjIz4wMjAwMCwiZXhwIjoxNjE2MjM2ODAwfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 JWT_SECRET=d08f6c47879c7f8b8ef68f4e4b4b2b2dc54aabfdfc5349a6120c4dcb1cbe4842b23ee8363f54c5a2db8e179f4d9bb7e8
 ```
+### Running the Project
+1.Clone the repository:
+```
+git clone <repository-url>
+cd train-ticket-booking
+```
+2. Install dependencies:
+
+Navigate to the backend directory and install the dependencies:
+```
+cd backend
+npm install
+```
+Navigate to the frontend directory and install the dependencies
+```
+cd frontend
+npm install
+```
+3. Start the backend server:
+
+In the backend directory, run:
+```
+node index.js
+```
+4. Start the frontend application:
+
+In the frontend directory, run:
+```
+npm start
+```
+
+### API Documentation
+Refer to the API documentation for details on endpoint usage and expected request/response formats.
