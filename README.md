@@ -106,7 +106,7 @@ JWT_SECRET=d08f6c47879c7f8b8ef68f4e4b4b2b2dc54aabfdfc5349a6120c4dcb1cbe4842b23ee
 ### Running the Project
 1.Clone the repository:
 ```
-git clone <repository-url>
+git clone https://github.com/Z3-N0/ticket-booking-website
 cd train-ticket-booking
 ```
 2. Install dependencies:
