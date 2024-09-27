@@ -38,7 +38,7 @@ This project is a Train Ticket Booking System that allows users to register, log
      ```
 
 2. **Create necessary tables**:
-     ```
+     ```sql
     USE train_booking;
 
      CREATE TABLE IF NOT EXISTS users (
